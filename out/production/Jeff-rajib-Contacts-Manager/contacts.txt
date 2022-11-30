@@ -1,8 +1,4 @@
-Name | Phone Number |
+Name       | Phone Number
 ---------------------
-jeffrey | 86758758
-joe | 86758758
-john | 86758758
-jose | 86758758
-juan | 86758758
-
+joe        |(234) 567-891   |
+jerry      |(123) 456-789   |
