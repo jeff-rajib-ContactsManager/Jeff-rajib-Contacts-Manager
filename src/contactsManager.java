@@ -55,6 +55,24 @@ public class contactsManager {
             Path p = Paths.get("src/contacts.txt");
             System.out.println("Enter new contact name?");
             String newContact = s.nextLine();
+
+            try {
+                Path np = Paths.get("src/contacts.txt");
+                List<String> data = Files.readAllLines(np);
+
+                for (String n : data) {
+                    if (n.contains(newContact)) {
+                        System.out.println(newContact + " already exists!");
+                        addContact();
+                    } else {
+                        System.out.println(" ");
+                    }
+                }
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+
             System.out.println("Enter new contact phone number?");
             String newNumber = s.nextLine();
             String w = newNumber.replaceFirst("(\\d{3})(\\d{3})(\\d+)", "($1) $2-$3");
