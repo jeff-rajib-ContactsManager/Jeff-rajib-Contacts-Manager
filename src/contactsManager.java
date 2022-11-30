@@ -48,8 +48,7 @@ import java.util.Scanner;
 public class contactsManager {
     public String x;
 
-//    key name/ value = phone#
-//    use equalto to conpare user input to contacts
+
 
     public static void main(String[] args) {
 
@@ -138,26 +137,4 @@ public class contactsManager {
 
 }
 
-//try {
-//        System.out.println("Which contact do you like to see?");
-//        String contact = s.nextLine();
-//        Path p = Paths.get("src/contacts.txt");
-//
-//        List<String> data = Files.readAllLines(p);
-//
-//        for (String s : data) {
-//        if(s.contains(contact)){
-//        System.out.println(s);
-//
-//        }
-//        }catch (Exception e) {
-//        e.printStackTrace();
-//        }
-//        }
 
-
-
-
-
-
-//}
