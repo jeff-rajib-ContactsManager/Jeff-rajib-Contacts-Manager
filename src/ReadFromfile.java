@@ -6,7 +6,7 @@ public class ReadFromfile {
 
     public static void main(String[] args) {
         try {
-            Path p = Paths.get("DataSet/poem.txt");
+            Path p = Paths.get("src/contacts.txt");
 
             List<String> data = Files.readAllLines(p);
 
