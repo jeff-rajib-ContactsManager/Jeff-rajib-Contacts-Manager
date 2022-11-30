@@ -1,5 +1,6 @@
-**CONTACTS**
-New contact
-rajib 787-687-1233
-mike 876-876-8764eggs
-
+Name | Phone Number |
+---------------------
+Jeffrey | 555-123-4567 |
+Andres | 123-456-7890 |
+Ethan | 456-473-7865 |
+Isaiah | 567-897-5678 |
